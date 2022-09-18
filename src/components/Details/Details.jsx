@@ -10,13 +10,13 @@ const classes = useStyles();
 
   return (
     <Card className={title === 'Income'? classes.income : classes.expense }>
-        <CardHeader title= {title}>
+        <CardHeader title= {title}/>
             <CardContent>
                 <Typography variant="h5">₹5000</Typography>
                 {/* <Doughnut data="DATA"/> */}
             </CardContent>
 
-        </CardHeader>
+     
     </Card>
     
   )
