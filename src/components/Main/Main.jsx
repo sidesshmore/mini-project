@@ -24,7 +24,7 @@ const Main = () => {
                       <InfoCard />
                        
                     </Typography>
-                    <Divider />
+                    <Divider className={classes.divider} />
                     <Form/>
                 </CardContent>
 
