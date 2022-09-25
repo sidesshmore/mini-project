@@ -2,12 +2,11 @@ import React from 'react'
 
 import {Card, CardHeader, CardContent, Typography } from '@material-ui/core';
 import { Doughnut } from 'react-chartjs-2';
-import {Chart,Legend, Tooltip, ArcElement} from 'chart.js'
+import {Chart,ArcElement} from 'chart.js'
 import useTransactions from '../../useTransactions';
 import useStyles from './styles';
 Chart.register(ArcElement);
-Chart.register(Legend);
-Chart.register(Tooltip);
+// Chart.register(Legend);
 
 
 
