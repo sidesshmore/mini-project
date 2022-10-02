@@ -4,6 +4,7 @@ export default makeStyles((theme) => ({
   desktop: {
     [theme.breakpoints.up('sm')]: {
       display: 'none',
+   
     },
   },
   mobile: {

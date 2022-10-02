@@ -14,7 +14,7 @@ const initialState = {
     amount: '',
     category: '',
     type: 'Income',
-    date: formatDate(new Date()),
+    date: formatDate(new Date())
 }
 
 const Form = () => {
