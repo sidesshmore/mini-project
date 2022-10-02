@@ -76,19 +76,19 @@ input[type="button"] {
     font-size: 18px;
 }
 
-p {
+/* p {
     text-align: center;
     padding-top: 20px;
     font-size: 15px;
-}
+} */
 
 .para-2 {
     text-align: center;
     color: black;
     font-size: 20px;
     margin-top: -10px;
-}
+} */
 
-.para-2 a {
+ .para-2 a {
     color: black;
 }
